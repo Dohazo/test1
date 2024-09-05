@@ -103,7 +103,13 @@
                 android:textStyle="bold"
                 android:text="JENIS"
                 />
-
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:text="Perguruan Tinggi Swasta"
+                android:textSize="14sp"
+                android:textStyle="bold" />
         </TableRow>
 
 
@@ -130,13 +136,7 @@
                     android:text="2 September 1961"
                     />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:text="Perguruan Tinggi Swasta"
-                    android:textSize="14sp"
-                    android:textStyle="bold" />
+
             </TableRow>
 
             <!--      Row Lokasi      -->
@@ -166,34 +166,27 @@ Surabaya, Jawa Timur,\n
             </TableRow>
 
         </TableLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:text="REKTOR"
+            android:textSize="14sp"
+            android:textStyle="bold"
 
+            />
 <!--    Table Rektor    -->
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
             >
-<!--            Judul           -->
-            <TableRow
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:layout_marginEnd="16dp"
-                    android:textStyle="bold"
-                    android:text="REKTOR"
-
-                    />
-            </TableRow>
 
 <!--      1.      -->
 
             <TableRow
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 >
@@ -203,7 +196,7 @@ Surabaya, Jawa Timur,\n
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
                     android:text="1."
-                    android:textSize="18sp"
+                    android:textSize="14sp"
 
                     />
 
@@ -212,8 +205,10 @@ Surabaya, Jawa Timur,\n
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
                     android:text="drg. Tan Tjiauw Yong (1962 - 1966)"
-                    android:textSize="13sp"
-                    android:textStyle="bold" />
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="start|center"
+                    />
             </TableRow>
 <!--      2.      -->
 
@@ -228,14 +223,14 @@ Surabaya, Jawa Timur,\n
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
                     android:text="2."
-                    android:textSize="18sp"
+                    android:textSize="14sp"
 
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="13sp"
+                    android:textSize="14sp"
                     android:layout_marginEnd="16dp"
                     android:textStyle="bold"
                     android:text="Letkol (Tituler) Pdt. J.W. Pourawouw (1966)"
@@ -254,14 +249,14 @@ Surabaya, Jawa Timur,\n
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
                     android:text="3."
-                    android:textSize="18sp"
+                    android:textSize="14sp"
 
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="13sp"
+                    android:textSize="14sp"
                     android:layout_marginEnd="16dp"
                     android:textStyle="bold"
                     android:text="Prof. Dr. J.E. Sahetapy, S.H., M.A. (1966 - 1969)"
@@ -279,7 +274,7 @@ Surabaya, Jawa Timur,\n
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
                     android:text="4."
-                    android:textSize="18sp"
+                    android:textSize="14sp"
 
                     />
 
@@ -303,8 +298,8 @@ Surabaya, Jawa Timur,\n
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
-                    android:text=""
-                    android:textSize="18sp"
+                    android:text="5."
+                    android:textSize="14sp"
 
                     />
 
@@ -314,7 +309,7 @@ Surabaya, Jawa Timur,\n
                     android:textSize="14sp"
                     android:layout_marginEnd="1dp"
                     android:textStyle="bold"
-                    android:text=""
+                    android:text="Dr. Ir. Widoyo Totosucipto (1984 - 1988)"
                     />
             </TableRow>
 <!--      dst.      -->
@@ -329,8 +324,8 @@ Surabaya, Jawa Timur,\n
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
-                    android:text=""
-                    android:textSize="18sp"
+                    android:text="6."
+                    android:textSize="14sp"
 
                     />
 
@@ -340,7 +335,7 @@ Surabaya, Jawa Timur,\n
                     android:textSize="14sp"
                     android:layout_marginEnd="1dp"
                     android:textStyle="bold"
-                    android:text=""
+                    android:text="Drs. Wasis Sastroredjo (1988 - 1997)"
                     />
             </TableRow>
 <!--      dst.      -->
@@ -355,8 +350,8 @@ Surabaya, Jawa Timur,\n
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
-                    android:text=""
-                    android:textSize="18sp"
+                    android:text="7."
+                    android:textSize="14sp"
 
                     />
 
@@ -366,7 +361,7 @@ Surabaya, Jawa Timur,\n
                     android:textSize="14sp"
                     android:layout_marginEnd="1dp"
                     android:textStyle="bold"
-                    android:text=""
+                    android:text="Prof. Dr.  Aris Pongtuluran, dr., MPH. (1997 - 2001)"
                     />
             </TableRow>
 <!--      dst.     -->
@@ -381,8 +376,8 @@ Surabaya, Jawa Timur,\n
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
-                    android:text=""
-                    android:textSize="18sp"
+                    android:text="8."
+                    android:textSize="14sp"
 
                     />
 
@@ -392,7 +387,7 @@ Surabaya, Jawa Timur,\n
                     android:textSize="14sp"
                     android:layout_marginEnd="1dp"
                     android:textStyle="bold"
-                    android:text=""
+                    android:text="Dr. Ir. Takim Andriono, M.E. (2001)"
                     />
             </TableRow>
 <!--     dst.  -->
@@ -407,8 +402,8 @@ Surabaya, Jawa Timur,\n
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
-                    android:text=""
-                    android:textSize="18sp"
+                    android:text="9."
+                    android:textSize="14sp"
 
                     />
 
@@ -418,7 +413,7 @@ Surabaya, Jawa Timur,\n
                     android:textSize="14sp"
                     android:layout_marginEnd="1dp"
                     android:textStyle="bold"
-                    android:text=""
+                    android:text="Ir. Paulus Nugraha, M.Eng., M.Sc. (2001 - 2009) "
                     />
             </TableRow>
 <!--     dst.     -->
@@ -433,8 +428,8 @@ Surabaya, Jawa Timur,\n
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
-                    android:text=""
-                    android:textSize="18sp"
+                    android:text="10."
+                    android:textSize="14sp"
 
                     />
 
@@ -444,10 +439,37 @@ Surabaya, Jawa Timur,\n
                     android:textSize="14sp"
                     android:layout_marginEnd="1dp"
                     android:textStyle="bold"
-                    android:text=""
+                    android:text="Prof. Ir. Rolly Intan, M.A.Sc., Dr.Eng. (2009 - 2017)"
                     />
             </TableRow>
+            <!--     dst.     -->
 
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:text="11."
+                    android:textSize="14dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="1dp"
+                    android:textStyle="bold"
+                    android:text="Prof. Prof. Dr. Ir. Djwantoro Hardjito, M.Eng. (2017 - \n
+sekarang)"
+                    />
+            </TableRow>
+ 
         </TableLayout>
     </LinearLayout>
 
