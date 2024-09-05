@@ -215,7 +215,7 @@ Surabaya, Jawa Timur,\n
                     android:textSize="13sp"
                     android:textStyle="bold" />
             </TableRow>
-<!--      1.      -->
+<!--      2.      -->
 
             <TableRow
                 android:layout_width="wrap_content"
@@ -241,7 +241,7 @@ Surabaya, Jawa Timur,\n
                     android:text="Letkol (Tituler) Pdt. J.W. Pourawouw (1966)"
                     />
             </TableRow>
-<!--      1.      -->
+<!--      3.      -->
 
             <TableRow
                 android:layout_width="wrap_content"
@@ -267,7 +267,7 @@ Surabaya, Jawa Timur,\n
                     android:text="Prof. Dr. J.E. Sahetapy, S.H., M.A. (1966 - 1969)"
                     />
             </TableRow>
-<!--      1.      -->
+<!--      4.      -->
 
             <TableRow
                 android:layout_width="wrap_content"
@@ -291,7 +291,7 @@ Surabaya, Jawa Timur,\n
                     android:textSize="13sp"
                     android:textStyle="bold" />
             </TableRow>
-<!--      1.      -->
+<!--      dst.      -->
 
             <TableRow
                 android:layout_width="wrap_content"
@@ -317,7 +317,7 @@ Surabaya, Jawa Timur,\n
                     android:text=""
                     />
             </TableRow>
-<!--      1.      -->
+<!--      dst.      -->
 
             <TableRow
                 android:layout_width="wrap_content"
@@ -343,7 +343,7 @@ Surabaya, Jawa Timur,\n
                     android:text=""
                     />
             </TableRow>
-<!--      1.      -->
+<!--      dst.      -->
 
             <TableRow
                 android:layout_width="wrap_content"
@@ -369,7 +369,7 @@ Surabaya, Jawa Timur,\n
                     android:text=""
                     />
             </TableRow>
-<!--      1.      -->
+<!--      dst.     -->
 
             <TableRow
                 android:layout_width="wrap_content"
@@ -395,7 +395,7 @@ Surabaya, Jawa Timur,\n
                     android:text=""
                     />
             </TableRow>
-<!--      1.      -->
+<!--     dst.  -->
 
             <TableRow
                 android:layout_width="wrap_content"
@@ -421,7 +421,7 @@ Surabaya, Jawa Timur,\n
                     android:text=""
                     />
             </TableRow>
-<!--      1.      -->
+<!--     dst.     -->
 
             <TableRow
                 android:layout_width="wrap_content"
